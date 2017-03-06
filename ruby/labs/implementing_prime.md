@@ -1,5 +1,9 @@
 # Implementing Prime
 
+The [largest prime number ever discovered](http://time.com/4187491/new-prime-number/) in 2016, made up of 22,338,618 digits:
+
+![prime](https://timedotcom.files.wordpress.com/2016/01/largest-prime-number1.png?w=720 "The largest prime number ever discovered")
+
 ## Instructions
 
 Define a method, `prime?()`, that takes in an integer argument and returns a boolean of whether or not that integer is a prime number.
@@ -21,4 +25,4 @@ Think about the efficiency of your algorithm. How many iterations does it do? Lo
 * [Basic Benchmarking in Ruby](http://rubylearning.com/blog/2013/06/19/how-do-i-benchmark-ruby-code/)
 * [Wikipedia](http://en.wikipedia.org/) - [Prime number](http://en.wikipedia.org/wiki/Prime_number)
 
-<a href='https://learn.co/lessons/prime-ruby' data-visibility='hidden'>View the original Learn.co lab here</a>
+<a href='https://learn.co/lessons/prime-ruby' data-visibility='hidden'>View the original Learn.co lab!</a>
