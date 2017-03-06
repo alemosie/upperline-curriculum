@@ -1,6 +1,6 @@
 # Practice Git & GitHub skills!
 
-Visit the main repository [here](https://github.com/alemosie/github-practice)!
+Visit the main repository [here](https://github.com/alemosie/github-practice) to follow along!
 
 *Content courtesy of Flatiron School's Learn.co and Upperline School of Code*
 
