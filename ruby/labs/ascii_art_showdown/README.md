@@ -1,19 +1,19 @@
 # Welcome to ASCII SHOWDOWN!
-                    _,,......_
-                 ,-'          `'--.
-              ,-'  _              '-.
-     (`.    ,'   ,  `-.              `.
-      \\ \\  -    / )    \\               \\
-       `\\`-^^^, )/      |     /         :
-         )^ ^ ^V/            /          '.
-         |      )            |           `.
-         9   9 /,--,\\    |._:`         .._`.
-         |    /   /  `.  \\    `.      (   `.`.
-         |   / \\  \\    \\  \\     `--\\   )    `.`.___
--hrr-   .;;./  '   )   '   )       ///'       `-"'
-        `--'   7//\\    ///\\
-
-In this lab, we'll build a game around ascii animal art! In each of the five rounds of the game, we'll randomly select from an assortment of ascii animal art (6 base animals found in `ascii_art.rb`.) Then, we'll prompt the user for a vote, and keep track of the score. The animal with the most votes wins!
+```ruby
+     _.-- ,.--.
+   .'   .'    /
+   | @       |'..--------._
+  /      \._/              '.
+ /  .-.-                     \
+(  /    \                     \
+ \\      '.                  | #
+  \\       \   -.           /
+   :\       |    )._____.'   \
+    "       |   /  \  |  \    )
+      snd   |   |./'  :__ \.-'
+            '--'
+```
+In this lab, we'll build a game around ascii animal art! In each of the five rounds of the game, we'll randomly select from an assortment of ascii animal art (6 base animals found in `ascii_art.rb`). Then, we'll prompt the user for a vote, and keep track of the score. The animal with the most votes wins!
 
 ## Skills
 
