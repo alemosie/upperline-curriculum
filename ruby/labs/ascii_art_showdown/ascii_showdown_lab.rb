@@ -1,4 +1,4 @@
-require "./ascii-art"
+require "./ascii_art"
 require "colorize"
 require "pry"
 extend AsciiArt
@@ -15,43 +15,44 @@ names_of_animals = AsciiArt::ANIMAL_NAMES
 game_points = [0, 0, 0, 0, 0, 0]
 
 
-def welcome_to_game
-  # TODO: ask for the user's name
-  # TODO: store the user's name in a variable called "name"
-  # TODO: interpolate "name" into the following statement: "Hi, <name>. Welcome to..."
+def welcome_to_game(names_of_animals)
+  puts "What is your name?"
+  name = gets.chomp
+  puts "Hi, #{name.colorize(color: :yellow)}. Welcome to..."
 
   puts WELCOME_ASCII
 
-  # TODO: set "number_of_animals" equal to the number of animals in the animals array
-  # TODO: print the number of animal contestants in play
+  number_of_animals = names_of_animals.count
+  puts "There are #{number_of_animals} contestants in play"
+
   puts "\n\nLet's play!\n\n"
 end
 
-def generate_random_contestants
-  # TODO: select two random contestants from the animal_names array
-  # TODO: return the two contestants: names of two animals
+def generate_random_contestants(names_of_animals)
+  names_of_animals.sample(2)
 end
 
-def find_contestant_art
-  # TODO: set variable "index" to the index (position) of animal in animal_names
-  # TODO: return the animal art (art) at that index
+def find_contestant_art(animal_names, contestant, ascii_art)
+  index = animal_names.index(contestant)
+  ascii_art[index]
 end
 
 
-def print_contestant_art
-  # TODO: set variable "first_contestant" to the first item in the contestants array
-  # TODO: set variable "second_contestant" to the second item in the contestants array
-  # TODO: use the find_contestant_art() method to get art for both contestants.
-    # TODO: save the contestants' art to "first_contestant_art" and "second_contestant_art"
+def print_contestant_art(contestants, animal_names, ascii_art)
+  first_contestant = contestants[0]
+  second_contestant = contestants[1]
 
+  first_contestant_art = find_contestant_art(animal_names, first_contestant, ascii_art)
+  second_contestant_art = find_contestant_art(animal_names, second_contestant, ascii_art)
   puts first_contestant_art.colorize(color: :blue)
   puts "\n\n------------------ VERSUS ------------------\n\n"
   puts second_contestant_art.colorize(color: :blue)
 end
 
-def get_vote
+def get_vote(contestants)
   puts "\n\nWhich animal gets your vote?\n----------------------------\n\n"
-
+  puts contestants[0].upcase
+  puts contestants[1].upcase
   # TODO: print out the names of both contestants in uppercase letters so that people know what to vote for!
 
   puts "\nEnter your vote here:"
@@ -77,33 +78,39 @@ def register_vote(vote, points)
   points
 end
 
-def find_first_place_animal
-  # TODO: set variable "highest_score" to the highest score (max value) in the points array
-  # TODO: set variable "highest_score_index" to the index of the max value in the points array
-  # TODO: set variable "winning_animal" to the animal in the "highest_score_index" position
-  # TODO: return winning_animal
+def find_first_place_animal(points, names)
+  high_score_index = points.index(points.max)
+  names[high_score_index]
 end
 
-def declare_first_place
-  # TODO: set variable "highest_score" to the highest score (max value) in the points array
-  # TODO: call find_first_place_animal to get the winning animal, and set that value to "winning_animal"
-
-  puts "\n\n#{winning_animal} is ahead with #{score} point(s)!".upcase
+def declare_first_place(points, animals)
+  high_score = points.max
+  winning_animal = find_first_place_animal(points, animals)
+  puts "\n\n#{winning_animal} is ahead with #{high_score} point(s)!".upcase
 end
 
-def declare_winner
-  # TODO: call find_first_place_animal to get the winning animal, and set that value to "winner"
+def declare_winner(points, animals)
+  winner = find_first_place_animal(points, animals)
   puts "\n\n#{winner} wins!!!!".upcase
 end
 
+
 def run_game(animal_names, animal_art, points)
-  welcome_to_game
-  5.times do
-    sleep(2)
-    # TODO: Call your methods here to run the game!
-  end
-  # TODO: Call declare_winner here to end the game!
-  puts WINNER_ASCII
+  welcome_to_game(animal_names)
+  contestants = generate_random_contestants(animal_names)
+  print_contestant_art(contestants, animal_names, animal_art)
+
+  vote = get_vote(contestants)
+  register_vote(vote, points)
+  declare_first_place(points, animal_names)
+  declare_winner(points, animal_names)
+
+  # 5.times do
+  #   sleep(2)
+  #   # TODO: Call your methods here to run the game!
+  # end
+  # # TODO: Call declare_winner here to end the game!
+  # puts WINNER_ASCII
 end
 
-run_game
+run_game(names_of_animals, ascii_art_of_animals, game_points)
