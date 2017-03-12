@@ -15,6 +15,8 @@
 ```
 In this lab, we'll build a game around ascii animal art! In each of the five rounds of the game, we'll randomly select two animals from an assortment of ascii animal art (6 base animals found in `ascii_art.rb`). Then, we'll prompt the user for a vote, and keep track of the score. The animal with the most votes wins!
 
+*Note: this lab is original content, created by Alex Siega (@alemosie)*
+
 ## Instructions
 
 See the `ascii_showdown_lab.rb` file for line-by-line instructions as comments in the code. The lab comes pre-packaged with defined methods, but beware -- some of the methods (e.g. number of arugments) may not be complete!
