@@ -1,4 +1,4 @@
-# trap-dot
+# Trap Dot
 A fun little dot game (IT'S A TRAP!) to build with new coding students.
 
 *Note: this lab is original content, created by Alex Siega (@alemosie)*
@@ -8,7 +8,7 @@ In-code instructions found in `dot_finder_lab.rb`
 
 ### Purpose
 
-In Trap Dot: Level 1, you will build a basic dot finder game. At the start, your current position marker is located at 0,0 (marked by the "X"). Your goal is to move the marker to the treasure (marked by the "$"). When your current position marker is the same as the treasure marker, you have won the game!
+In Dot Finder, you will build a basic dot finder game. At the start, your current position marker is located at 0,0 (marked by the "X"). Your goal is to move the marker to the treasure (marked by the "$"). When your current position marker is the same as the treasure marker, you win the game!
 
 ### Steps
 As the in-code instructions in `dot_finder_lab.rb` outline, there are 5 main tasks to complete:
@@ -20,20 +20,39 @@ As the in-code instructions in `dot_finder_lab.rb` outline, there are 5 main tas
 
 The in-code instructions set up a skeleton that accounts for the 5 tasks above. However, feel free to scrap the outline in favor of a clean slate!
 
+#### Skills
 
-### Game screenshots
-Below are screenshots from an example version of the game.
+- Terminal interaction (asking for user input)
+- Methods with arguments
+- Generating random numbers
+- Loops (`for`, `while`/`until`)
+- Control flow with conditionals
+
+
+### Example game screenshots
+
+Below are screenshots from an example version of the game. The colors are arbitrary -- check out the [`colorize`](https://github.com/fazibear/colorize) gem to make your own game pop.
 
 #### Start
+
+The current position marker starts at 0,0 (by default). The treasure marker is randomly placed on the board.
+
 ![Start of the game](images/start.png)
 
 #### Moving to the right
+
+The current position marker moves one space to the right to 1,0.
+
 ![Moving to the right](images/move_right.png)
 
 #### Winning the game
+
 You win the game when your marker finds the treasure!
+
 ![You've found the treasure!](images/winner.png)
 
 #### Losing the game
+
 You lose the game at level 1 when you've moved your marker off the board.
+
 ![Losing the game](images/off_the_board.png)
