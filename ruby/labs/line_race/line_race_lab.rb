@@ -1,5 +1,3 @@
-require "pry"
-
 # TODO: create a method named "ask_user_for_race_length".
   # this method should ask the user for a number, and return the input value.
   # it represents the length of the race lane!
