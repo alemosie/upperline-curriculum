@@ -1,9 +1,8 @@
 require "pry"
 
-def ask_user_for_race_length
-  # TODO: Ask the user for a number, and return the input value.
-    # This number will represent the length of the race lane!
-end
+# TODO: create a method named "ask_user_for_race_length".
+  # this method should ask the user for a number, and return the input value.
+  # it represents the length of the race lane!
 
 def create_lane
   # This method creates the lanes for each player to race on!
@@ -18,9 +17,8 @@ def create_lane
   puts "\n"
 end
 
-def roll_number_dice
-  # TODO: Generate and return a random number from 1 to 3
-end
+# TODO: create a method named "roll_number_dice".
+  # this method should generate and return a random number from 1 to 3
 
 def roll_direction_dice
   # TODO: Create an array that has two "backward" strings and two "forward" strings.
