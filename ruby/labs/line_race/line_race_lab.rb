@@ -1,7 +1,6 @@
-def ask_user_for_race_length
-  puts "Give me a number"
-  gets.chomp.to_i
-end
+# TODO: create a method named "ask_user_for_race_length".
+  # this method should ask the user for a number, and return the input value.
+  # it represents the length of the race lane!
 
 puts ask_user_for_race_length
 
@@ -18,10 +17,8 @@ def create_lane(place, length)
   puts "\n"
 end
 
-
-def roll_number_dice
-  rand(1..3)
-end
+# TODO: create a method named "roll_number_dice".
+  # this method should generate and return a random number from 1 to 3
 
 def roll_direction_dice
   # TODO: Create an array that has two "backward" strings and two "forward" strings.
@@ -45,18 +42,6 @@ def print_move(player, move) # move is an array
   puts "Player #{player} moves #{move[0]} space(s) #{move[1]}"
 end
 
-print_move(move_player_1, 1)
-"Player [1, "forward"] moves 1 space erroooooor"
-
-print_move(2, move_player_2)
-
-
-
-
-
-
-
-#
 def roll_die_for_player
   puts "Press enter to roll the dice for player #{player_number}!"
   gets.chomp
