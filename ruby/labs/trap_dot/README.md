@@ -20,16 +20,24 @@ As the in-code instructions in `dot_finder_lab.rb` outline, there are 5 main tas
 
 The in-code instructions set up a skeleton that accounts for the 5 tasks above. However, feel free to scrap the outline in favor of a clean slate!
 
-#### Skills
 
-- Terminal interaction (asking for user input)
-- Methods with arguments
-- Generating random numbers
-- Loops (`for`, `while`/`until`)
-- Control flow with conditionals
+## Level 2: Add the traps!
+
+In level 2, we're going to live up to the Trap Dot name, and add some traps!
+
+Build off of the code you wrote for level 2, thinking about ways to refactor your original approach as you create new functionality. You'll code your solution to level 2 in `dot_finder_lab.rb`, right around your level 1 methods.
+
+### Steps
+
+Your tasks (should you choose to accept) are as follows:
+
+- **Generate at least 2 traps randomly**. They should be randomly placed on your grid.
+- **Create an easy, medium, and hard mode** that determines the size of and the number of traps in your board. At the start of the game, ask the player which mode they want.
+- **Place traps on the board**. Traps should be indicated with a "!" instead of the usual "."
+- Create logic to **send the current position marker back to start** when you hit a trap.
 
 
-### Example game screenshots
+## Example game screenshots
 
 Below are screenshots from an example version of the game. The colors are arbitrary -- check out the [`colorize`](https://github.com/fazibear/colorize) gem to make your own game pop.
 
@@ -56,3 +64,18 @@ You win the game when your marker finds the treasure!
 You lose the game at level 1 when you've moved your marker off the board.
 
 ![Losing the game](images/off_the_board.png)
+
+#### Level 2 - Hitting a trap
+
+You tell the user that they've hit a trap, and move the current position marker back to the start.
+
+![Hitting a trap](images/hit_trap.png)
+
+#### Skills
+
+- Terminal interaction (asking for user input)
+- Methods with arguments
+- Generating random numbers
+- Loops (`for`, `while`/`until`)
+- Control flow with conditionals
+- Game logic
