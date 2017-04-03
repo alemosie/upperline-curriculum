@@ -36,7 +36,7 @@ Your tasks (should you choose to accept) are as follows:
 - **Place traps on the board**. Traps should be indicated with a "!" instead of the usual "."
 - Create logic to **send the current position marker back to start** when you hit a trap.
 
-## Level 3: Hidden treasure (and traps!)
+## Level 3: Hide yo' treasure and traps
 
 The final step for Trap Dot is to hide the treasure and traps on the board so that the player doesn't know where they are. (Thus actually making the game interesting.) However, letting players wander aimlessly around the board hitting traps is no fun, so you need to add functionality that keeps track of where the player has moved and any traps they've found.
 
