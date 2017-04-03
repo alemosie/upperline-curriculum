@@ -25,7 +25,7 @@ The in-code instructions set up a skeleton that accounts for the 5 tasks above. 
 
 In level 2, we're going to live up to the Trap Dot name, and add some traps!
 
-Build off of the code you wrote for level 2, thinking about ways to refactor your original approach as you create new functionality. You'll code your solution to level 2 in `dot_finder_lab.rb`, right around your level 1 methods.
+Build off of the code you wrote for level 1, thinking about ways to refactor your original approach as you create new functionality. You'll code your solution to level 2 in `dot_finder_lab.rb`, right around your level 1 methods.
 
 ### Steps
 
@@ -36,6 +36,15 @@ Your tasks (should you choose to accept) are as follows:
 - **Place traps on the board**. Traps should be indicated with a "!" instead of the usual "."
 - Create logic to **send the current position marker back to start** when you hit a trap.
 
+## Level 3: Hidden treasure (and traps!)
+
+The final step for Trap Dot is to hide the treasure and traps on the board so that the player doesn't know where they are. (Thus actually making the game interesting.) However, letting players wander aimlessly around the board hitting traps is no fun, so you need to add functionality that keeps track of where the player has moved and any traps they've found.
+
+### Steps
+
+- **Hide the traps and treasure**.
+- **Add feature that tracks progress**. Think of it like leaving a trail of breadcrumbs!
+- **Uncover a trap** on the board when the player stumbles upon it. The trap should then remain visible on the board until the game is finished.
 
 ## Example game screenshots
 
@@ -70,6 +79,7 @@ You lose the game at level 1 when you've moved your marker off the board.
 You tell the user that they've hit a trap, and move the current position marker back to the start.
 
 ![Hitting a trap](images/hit_trap.png)
+
 
 #### Skills
 
