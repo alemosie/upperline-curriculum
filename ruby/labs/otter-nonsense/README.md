@@ -1,6 +1,9 @@
 # Otter Nonsense!
 *An introduction to HTML/CSS + practice using Ruby methods*
 
+![Otter Mastery](http://i.imgur.com/FR1NsfM.gif)
+
+
 ## What is HTML?
 
 HTML stands for **Hypertext Markup Language**, and every single website on the internet is written in HTML. (Yes, that's right: every single one!) It provides the skeleton for websites and organizes the different elements on a page into categories like image, paragraph, and title. We're going to learn how to generate some of these structural elements today!
