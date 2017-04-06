@@ -17,9 +17,7 @@ HTML is written using **tags**: a fancy term for labeling pieces of content. For
 
 The first `<p>` is called the "opening tag", and the second `</p>` is called the "closing tag." (Notice that the closing tag is denoted by the extra `/`.) The text you want to be displayed on the page goes in the middle!
 
-#### Tags used in this lesson
-
-##### Header tags
+#### Header tags
 
 Header tags are used for -- you guessed it -- headings. They always have an "h" in front, like so:
 
@@ -32,7 +30,7 @@ There are also `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>` tags. The font gets pr
 
 Think of headers like the section headers of this README. Your h1 would be "Otter Nonsense," since that's the biggest font. h2 would be "What is HTML?," and so on.
 
-##### Text tags
+#### Text tags
 
 ```html
 <p></p>
@@ -48,7 +46,7 @@ HTML doesn't understand whitespace. This means that if in your HTML document you
 
 Note: `<br>` is one of the only tags that doesn't require a closing tag!
 
-##### Image tag
+#### Image tag
 
 ```html
 <img src='https://tinyurl.com/n4v8gvu'/>
@@ -56,7 +54,7 @@ Note: `<br>` is one of the only tags that doesn't require a closing tag!
 
 "Img" stands for "image" -- it lets you put images from the internet onto your page!
 
-##### Link tag
+#### Link tag
 
 ```html
 <a href='https://en.wikipedia.org/wiki/Otter'/>
@@ -64,7 +62,7 @@ Note: `<br>` is one of the only tags that doesn't require a closing tag!
 
 This one is a little tricky to remember. "href" stands for "hyperlink reference," which makes sense because HTML links are hyperlinks -- that's how the internet works! Link tags allow you to click on a link and jump to another document, or html page.
 
-##### List tags
+#### List tags
 
 We're going to handle two types of lists here: **ordered** and **unordered**. The difference? Ordered lists have numbers, while unordered lists have bullets.
 
