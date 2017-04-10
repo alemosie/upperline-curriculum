@@ -1,4 +1,4 @@
-# Build a Simple HTML Page
+# Build an About Me HTML Page
 
 Build your own single-page "About Me" website using HTML.
 
@@ -28,5 +28,5 @@ Your page must contain the following html tags and attributes:
 
 For an extra challenge, consider researching and using the following tags:
 
-* Horizontal rule (<hr>)
-* Quote (<blockquote>)
+* Horizontal rule (`<hr>`)
+* Quote (`<blockquote>`)
