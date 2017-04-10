@@ -16,15 +16,15 @@ Make sure to include at least two of the following:
 
 Your page must contain the following html tags and attributes:
 
-* Header (e.g. <h3>)
+* Header (e.g. `<h3>`)
 * Text alignment (center, right, left)
-* Image (<img>)
-* Text formatting (<b>, <i>, <u>)
-* Division (<div>)
-* Ordered list (<ol>)
-* Unordered list (<ul>)
-* External link (<a href...>)
-* Internal link (<a href=#...>)
+* Image (`<img>`)
+* Text formatting (`<b>, <i>, <u>`)
+* Division (`<div>`)
+* Ordered list (`<ol>`)
+* Unordered list (`<ul>`)
+* External link (`<a href...>`)
+* Internal link (`<a href=#...>`)
 
 For an extra challenge, consider researching and using the following tags:
 
