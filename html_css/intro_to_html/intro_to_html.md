@@ -99,7 +99,7 @@ Adding a `<body>` looks like this:
     <title>Really Cool Page</title>
   </head>
   <body>
-
+    <!--  Content tags go here!    -->
   </body>
 </html>
 ```
