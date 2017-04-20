@@ -21,7 +21,7 @@ While CSS normally resides in its own document, we can also use it within HTML t
 <h1 style="color:blue;">This is a blue heading.</h1>
 ```
 
-`color:blue;` is CSS for "change the H1 text to the color blue." 
+`color:blue;` is CSS for "change the text to the color blue." 
 
 We can also change the text font like so:
 
