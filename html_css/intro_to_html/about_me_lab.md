@@ -17,7 +17,7 @@ CSS (which stands for "cascading style sheets") describes how HTML elements are 
 
 While CSS normally resides in its own document, we can also use it within HTML tags by passing the tag the "style=" argument. Consider this blue heading below:
 
-```css
+```html
 <h1 style="color:blue;">This is a blue heading.</h1>
 ```
 
@@ -25,13 +25,13 @@ While CSS normally resides in its own document, we can also use it within HTML t
 
 We can also change the text font like so:
 
-```css
+```html
 <h1 style="font-family:courier;">This heading is in Courier.</h1>
 ```
 
 Or we can put them together!
 
-```css
+```html
 <h1 style="font-family:courier;color:blue">This heading is in Courier and it's blue!</h1>
 ```
 
