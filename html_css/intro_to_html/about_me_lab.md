@@ -11,6 +11,32 @@ Make sure to include at least two of the following:
 3. A section about your favorite place in New York City.
 4. Your favorite meme(s).
 
+## New concept: inline CSS
+
+CSS (which stands for "cascading style sheets") describes how HTML elements are displayed. If HTML is the bones/body of your webpage, think of CSS like the clothes you put on -- elements that give your page that extra oomph in style. With CSS, you can 
+
+While CSS normally resides in its own document, we can also use it within HTML tags by passing the tag the "style=" argument. Consider this blue heading below:
+
+```css
+<h1 style="color:blue;">This is a blue heading.</h1>
+```
+
+`color:blue;` is CSS for "change the H1 text to the color blue." 
+
+We can also change the text font like so:
+
+```css
+<h1 style="font-family:courier;">This heading is in Courier.</h1>
+```
+
+Or we can put them together!
+
+```css
+<h1 style="font-family:courier;color:blue">This heading is in Courier and it's blue!</h1>
+```
+
+CSS pairs ("color" being the property and "blue" being the value of the property "color") are separated by a semi-colon. You can add as many as you like, as long as they follow the proper syntax!
+
 
 ## HTML tags
 
@@ -30,3 +56,4 @@ For an extra challenge, consider researching and using the following tags:
 
 * Horizontal rule (`<hr>`)
 * Quote (`<blockquote>`)
+
