@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Codealong</title>
+</head>
+<body>
+	<div id="title-section">
+    <h1>CSS Walkthrough</h1>
+    <h2>An Introduction to Cascading Style Sheets</h2>
+  </div>
+  <div class="info-section">
+    <h3>What is CSS?</h3>
+    <p>CSS stands for Cascading Style Sheets.
+      We use CSS to apply style and formatting to websites. It's a best practice as a programmer to keep <em>content</em> and <em>styling</em> separate. That way we can keep our files simple and also allow for different webpages to have the same styling! Imagine if every time the New York Times had to publish an article they had to re-do the look of the entire newspaper!</p>
+  </div>
+  <div class="info-section">
+    <h3>What can CSS change?</h3>
+    <ul>
+      <li>Font type</li>
+      <li>Text sizes</li>
+      <li>Backgrounds</li>
+      <li>Borders</li>
+      <li>Page Layout</li>
+      <li>Margins</li>
+      <li>Image sizes</li>
+      <li>Rounding edges</li>
+      <li>LOTS MORE...</li>
+    </ul>
+  </div>
+  <div class="info-section">
+    <h3 class=>A syntax primer</h3>
+    <p>
+      CSS syntax is pretty straightforward!
+      <br><br>
+      The selector chooses the element whose formatting you want to change. It corresponds to the html tag of which you want to change the styling.
+      <br>
+      The declaration is how you're changing the element -- whether it's changing font size, background color, or position.
+      <br><br>Take a look at the breakdown below:
+    </p>
+    <img src="images/selector.gif">
+  </div>
+  <div class="info-section">
+    <h3>Linking CSS and HTML</h3>
+    <p>
+      You need to create a CSS stylesheet and link to it in your HTML file.
+      <br>Your link should be in the 'head' section of the html and should look something like this:
+      <p id="stylesheet-link">&#60link rel="stylesheet" type="text/css" href="codealong.css"&#62</p>
+      <span id="command">Do this now!</span>
+    </p>
+  </div>
+  <div class="info-section">
+    <h3> What does the "cascading" in CSS mean? </h3>
+    <p>
+      If we look at the HTML of a page, we can see that elements are embedded within other elements. For example, in this page the h1 header is embedded within the 'body' element of this page, which is embedded in the 'html' element.
+      <br>Imagine a big family tree. Now, back to cascades: When we change the formatting of a specific element, that change will <em>cascade</em> down to all of the related elements.
+    </p>
+    </div>
+  <h3>Why classes and ids?</h3>
+  <p>
+    Sometimes we have to get more granular than what the tags in our html can provide us. For example, we only want to convert one of our h3 headings to a different color. If we change the css of h3s, the will all change.
+    <br><br>
+    So we add classes and/or ids. Classes and ids are markers that we put in our HTML so that we can reference them in our CSS stylesheets. An id can only be used once in a page, but a class can be used multiple times. In our stylesheets, ids are referenced with a '#' and classes are referenced with a '.'.
+  </p>
+</body>
+</html>

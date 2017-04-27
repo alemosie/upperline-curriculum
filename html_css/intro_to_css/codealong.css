@@ -1,0 +1,49 @@
+/* PLAIN SELECTORS */
+
+img {
+  /* this centers all images */
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  font-size: 40px;
+  font-family: courier;
+  text-decoration: underline;
+}
+
+h2 {
+  /* 1. TODO: center and italicize the text */
+}
+
+/* 2. TODO: change the font type to verdana for all p tags */
+
+/* 3. TODO: make all of the header 3 text uppercase */
+
+
+/* CLASSES */
+
+.info-section {
+  /* 4. TODO: change the font type to georgia */
+}
+
+/* 5. TODO: Underline the "markers" class text */
+
+
+/* IDS */
+
+#command {
+  /* changes the background color to red and the text bold */
+  background-color: red;
+  font-weight: bold;
+}
+
+#title-section {
+  /* 6. TODO: change the background color to yellow*/
+}
+
+#stylesheet-link {
+  /* 7. TODO: change the font to courier and choose a color for the text! */
+}
