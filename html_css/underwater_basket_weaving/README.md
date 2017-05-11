@@ -1,6 +1,6 @@
 # Underwater Basket Weaving
 
-In this lesson, we're going to take an existing HTML/CSS Bootstrap template and make it our own! Follow the instructions below to create a page for the University of Aquatic Craft's most popular course, Underwater Basket Weaving!
+In this lesson, we're going to take an existing HTML, CSS, and [Bootstrap](http://getbootstrap.com/) template and make it our own! Follow the instructions below to create a page for the University of Aquatic Craft's most popular course, Underwater Basket Weaving!
 
 ## 1. Add a title
 
@@ -77,6 +77,12 @@ For "Beautiful Baskets":
 For "Earn a Degree":
 > Use the `underwater-basket-weaving-degree.jpg` file in the "images" folder.
 
-### You're done!
+### Edit the copyright
+
+Down at the very bottom, you'll see a line for the copyright information. Edit the current text to attribute the copyright to "University of Aquatic Crafts," or better yet: you!
+
+## You're done!
 
 Congrats! Not only have you done the University of Aquatic Crafts a huge favor, you learned a lot about navigating new, complex HTML, CSS, and Bootstrap code in the process! Now, go weave a basket in celebration :)
+
+Thanks [Start Bootstrap](https://github.com/BlackrockDigital/startbootstrap-business-frontpage) for the base theme!
