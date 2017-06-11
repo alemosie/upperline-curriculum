@@ -120,6 +120,10 @@ For an **external** link, the destination address should be a full URL or with a
 For an **internal** link, the destination address should correspond to an "id" assigned to another tag: usually a `<div>` tag. The address is the id name ("hello-otter") preceded by a "#".
 
 
+
+<br>
+
+
 ### Bonus: Changing color
 
 You change the color of text on the page by using the `style="color:COLOR"` tag element. The color you give your tag can either be in [hex](https://www.w3schools.com/colors/colors_hexadecimal.asp), [rgb](https://www.w3schools.com/colors/colors_rgb.asp), or [name](https://www.w3schools.com/colors/colors_names.asp).

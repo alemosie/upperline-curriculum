@@ -1,0 +1,7 @@
+# run 'bundle install' in the terminal to install all of the gems necessary for this lab!
+
+source 'https://rubygems.org'
+
+gem 'sinatra'
+gem 'thin'
+gem 'shotgun'
