@@ -15,7 +15,7 @@ An object in code is a thing with all the data and all the logic required to com
 
 Object-oriented programming was born from the trend of making digital lives reflect our real lives. In the 1970's, [Adele Goldberg](https://en.wikipedia.org/wiki/Adele_Goldberg_%28computer_scientist%29) and [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay) developed an object-oriented language at Xerox PARC called SmallTalk, which was used in the first personal computer.
 
-# Classes And Instances
+# Classes and Instances
 
 ## Defining a class
 
